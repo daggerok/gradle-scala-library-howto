@@ -45,3 +45,5 @@ tasks {
 node {
     download = true
 }
+
+defaultTasks("clean", "build")
